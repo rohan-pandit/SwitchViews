@@ -13,7 +13,7 @@ import android.graphics.Color;
 public class CustomAdapter extends ArrayAdapter {
 
     private String[] colors;
-
+    private String[] actualColors = {"red", "green", "blue", "yellow", "grey"};
     public CustomAdapter(Context context, int resource, String[] objects) {
         super(context, resource, objects);
 
@@ -27,7 +27,7 @@ public class CustomAdapter extends ArrayAdapter {
         View v = super.getView(position, convertView, parent);
 
         for(int i = 0; i < colors.length; i++){
-            v.setBackgroundColor(Color.parseColor(colors[position]));
+            v.setBackgroundColor(Color.parseColor(actualColors[position]));
         }
 
         return v;

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">SwitchViews</string>
+    <string-array name="colors">
+        <item>red</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>yellow</item>
+        <item>grey</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
